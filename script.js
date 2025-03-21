@@ -1304,7 +1304,7 @@ function loadPagination() {
         pageBtn.addEventListener('click', () => {
             currentPage = i;
             loadQuiz(currentPage);
-            checkAllAnswered();
+            // checkAllAnswered();
         });
         paginationContainer.appendChild(pageBtn);
     }
@@ -1334,16 +1334,16 @@ function updateSelectedAnswers() {
 }
 
 // Kiểm tra xem tất cả câu hỏi đã được trả lời chưa
-function checkAllAnswered() {
-    let allAnswered = true;
+// function checkAllAnswered() {
+//     let allAnswered = true;
 
-    quizData.forEach((_, index) => {
-        const isAnswered = selectedAnswers[index] && selectedAnswers[index].length > 0;
-        if (!isAnswered) allAnswered = false;
-    });
+//     quizData.forEach((_, index) => {
+//         const isAnswered = selectedAnswers[index] && selectedAnswers[index].length > 0;
+//         if (!isAnswered) allAnswered = false;
+//     });
 
-    document.getElementById('submit-btn').disabled = !allAnswered;
-}
+//     document.getElementById('submit-btn').disabled = !allAnswered;
+// }
 
 // Xử lý submit và hiển thị kết quả
 function submitQuiz() {
