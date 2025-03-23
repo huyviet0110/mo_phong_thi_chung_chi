@@ -2105,7 +2105,12 @@ const quizData = [
     {
         question: "Where can Admins check which release is running on an ServiceNow instance?",
         type: "single",
-        options: [],
+        options: [
+            "Memory Stats module",
+            "Stats module",
+            "System.upgraded table",
+            "Transactions log",
+        ],
         correct: [1],
         explanation: "The PDF lists 'B' as the answer, but no options are provided. The correct location is 'System Diagnostics > Stats' or 'System Properties > System' (typically option B in CSA exams), where admins can view the release version."
     },
@@ -2228,7 +2233,12 @@ const quizData = [
     {
         question: "Which testing framework is used to test ServiceNow Applications?",
         type: "single",
-        options: [],
+        options: [
+            "Selenium",
+            "Test Driven Framework (TDF)",
+            "Junit",
+            "Automated test Framework (ATF)",
+        ],
         correct: [3],
         explanation: "The PDF lists 'D' as the answer, but no options are provided. The correct answer is typically 'Automated Test Framework (ATF)' (option D in CSA exams), used to test ServiceNow applications."
     },
@@ -2343,7 +2353,12 @@ const quizData = [
     {
         question: "How are Workflows moved between instances?",
         type: "single",
-        options: [],
+        options: [
+            "Workflows are moved using Update Sets",
+            "Workflows are moved using Transform Maps",
+            "Workflows are moved using Application Sets",
+            "Workflows cannot be moved between instances",
+        ],
         correct: [0],
         explanation: "The PDF lists 'A' as the answer, but no options are provided. Workflows are typically moved using Update Sets (option A in CSA exams)."
     },
@@ -2458,7 +2473,10 @@ const quizData = [
     {
         question: "UI Policy can make fields read-only, mandatory, or hidden.",
         type: "single",
-        options: [],
+        options: [
+            "True",
+            "False",
+        ],
         correct: [0],
         explanation: "The PDF lists 'A' as the answer, implying True (no options provided). This is correct; UI Policies can set fields to read-only, mandatory, or hidden."
     },
@@ -2582,7 +2600,13 @@ const quizData = [
     {
         question: "What is a no-code approach to control the mandatory or read-only state of a form field?",
         type: "single",
-        options: [],
+        options: [
+            "UI Action",
+            "Client Script",
+            "UI Scripts",
+            "UI Rules",
+            "UI Policy",
+        ],
         correct: [4],
         explanation: "The PDF answer 'E' suggests UI Policy (typically option E in CSA exams), a no-code method to control field states. No options provided, but 'UI Policy' is correct."
     },
@@ -2701,7 +2725,12 @@ const quizData = [
     {
         question: "What defines conditions that are evaluated against users to determine which users can create, read, write, and retire knowledge articles?",
         type: "single",
-        options: [],
+        options: [
+            "User conditions",
+            "User info",
+            "User Criteria",
+            "User permissions",
+        ],
         correct: [2],
         explanation: "The PDF answer 'C' suggests User Criteria (typically option C), which defines access to knowledge articles. No options provided, but 'User Criteria' is correct."
     },
@@ -2820,7 +2849,12 @@ const quizData = [
     {
         question: "What framework can be used to manage the tables and CIs associated with a use case?",
         type: "single",
-        options: [],
+        options: [
+            "Common Service Date Model (CSDM) product view",
+            "Scename Dashboard",
+            "CMDB Use Case Modelar",
+            "CI Use Case Modeler",
+        ],
         correct: [0],
         explanation: "The PDF answer 'A' suggests CSDM (Common Services Data Model), typically option A, which manages tables and CIs for use cases. No options provided."
     },
@@ -2938,7 +2972,13 @@ const quizData = [
     {
         question: "What are advantages of using spokes for integrations? Choose 3 answers",
         type: "multiple",
-        options: [],
+        options: [
+            "Reduces the need for code",
+            "Features scale and control mechanisms",
+            "Free spokes are avalabile in the ServiceNow Store",
+            "Ensures discoverability and reuse",
+            "Automated event management",
+        ],
         correct: [0, 3, 4],
         explanation: "The PDF answer 'A, D, E' suggests common advantages: pre-built actions (A), reduced coding (D), and third-party integration (E). No options provided."
     },
@@ -3054,9 +3094,14 @@ const quizData = [
         explanation: "CI Health Dashboard traces CI issues for a service. The PDF answer 'B' is correct."
     },
     {
-        question: "The customer has asked that you change the default layout of the task list. Number, Task Type, Parent, Short Description, Assignment Group, Assignment, Updated. After navigation to the list, where would you click, to meet this requirement?",
+        question: "The customer has asked that your change the default layout of the task list. Number, Task Type, Parent, Short Description, Assignment Group, Assignment, Updated. After navigation to the list, where would you click, to meet this requirement?",
         type: "single",
-        options: [],
+        options: [
+            "Right click on any column header, Context menu > Configure > List Layout",
+            "Right click List Gear icon > Configure > Columns",
+            "Click List Context Menu > Personalize List",
+            "Click List Context Menu > Configure Columns",
+        ],
         correct: [1],
         explanation: "The PDF answer 'B' suggests the Gear icon (typically B), used to personalize list layouts. No options provided."
     },
@@ -3183,7 +3228,12 @@ const quizData = [
     {
         question: "Which of the following allows a user to edit field values in a list without opening the form?",
         type: "single",
-        options: [],
+        options: [
+            "Data Editor",
+            "Edit Menu",
+            "List Editor",
+            "Form Designer",
+        ],
         correct: [2],
         explanation: "The PDF answer 'C' suggests List Edit (typically C), which allows editing in a list. No options provided."
     },
@@ -3301,7 +3351,13 @@ const quizData = [
     {
         question: "A user is complaining that they are seeing a blank page, when they click Create New, from your custom Inventory application. You have confirmed that they can see the Inventory application, and the Create New module on the application navigator. What could be the cause of this issue?",
         type: "single",
-        options: [],
+        options: [
+            "Create New module has a broken link",
+            "Known intermittent issue with U115",
+            "User should be using Chrome instead of Explorer Explorer for their browser",
+            "User has read role, but not the write role on the Inventory table",
+            "User session has timed out",
+        ],
         correct: [4],
         explanation: "The PDF answer 'E' suggests an ACL issue (typically E), restricting create access. No options provided."
     },
@@ -3421,7 +3477,12 @@ const quizData = [
     {
         question: "Which tool graphically displays an infrastructure view for a configuration item (CI) and its relationship with other CIs?",
         type: "single",
-        options: [],
+        options: [
+            "Schema Map",
+            "Dependency View",
+            "Dependency Map",
+            "Database View",
+        ],
         correct: [1],
         explanation: "The PDF answer 'B' suggests Dependency View (typically B), which shows CI relationships. No options provided."
     },
@@ -3538,7 +3599,13 @@ const quizData = [
     {
         question: "A new Service Desk employee in Latin America complains that the create dates and times are incorrect on their Incident list. What would you suggest to fix this issue?",
         type: "single",
-        options: [],
+        options: [
+            "Have them clear their cache.",
+            "Have them use the gear icon to set the employee's time zone.",
+            "Recommend they use Chrome, instead of Explorer.",
+            "Use the system properties to correct the instance's time zone.",
+            "Have them correct the time zone on their computer.",
+        ],
         correct: [4],
         explanation: "The PDF answer 'E' suggests adjusting the user's time zone (typically E). No options provided."
     },
@@ -3785,7 +3852,19 @@ const quizData = [
     {
         question: "Which of the following are not included in an Update Set, by default? (Choose four.)",
         type: "multiple",
-        options: [],
+        options: [
+            "Homepages",
+            "Data",
+            "Published Workflows",
+            "Business Rules",
+            "Schedules",
+            "Database changes",
+            "Related Lists",
+            "Report Definitions",
+            "Scheduled Jobs",
+            "Client Scripts",
+            "Views",
+        ],
         correct: [0, 1, 4, 5],
         explanation: "The PDF answer 'A, B, E, F' suggests common exclusions: Data, Scheduled Jobs, Users, Groups (typically A, B, E, F). No options provided."
     },
@@ -4026,7 +4105,13 @@ const quizData = [
     {
         question: "A customer has asked for the following updates to a form: Make Resolution code mandatory, admin state is changed to Resolved. Hide major incident check box, unless logged in user has Major incident Manager role. What type of rules (s) would you use to implement this requirement?",
         type: "multiple",
-        options: [],
+        options: [
+            "Dictionary Design",
+            "Field Limiter",
+            "UI Policy",
+            "UI Design",
+            "Form Constraint",
+        ],
         correct: [2, 4],
         explanation: "The PDF answer 'C, E' suggests UI Policy (C) for field states and Client Script (E) for role-based logic. No options provided."
     },
@@ -4284,7 +4369,12 @@ const quizData = [
     {
         question: "What icon do you use to change the boon and color on a Favorite?",
         type: "single",
-        options: [],
+        options: [
+            "Clack",
+            "Tringle",
+            "Pencil",
+            "Star",
+        ],
         correct: [2],
         explanation: "The PDF answer 'C' suggests the Pencil icon (typically C), despite 'boon' typo (likely 'icon'). No options provided."
     },
@@ -4398,7 +4488,12 @@ const quizData = [
     {
         question: "Which application is used primarily to load data into ServiceNow?",
         type: "single",
-        options: [],
+        options: [
+            "Import Hub",
+            "System Import Sets",
+            "Data Import Configuration",
+            "Import Management",
+        ],
         correct: [1],
         explanation: "The PDF answer 'B' suggests Import Sets (typically B), used to load data. No options provided."
     },
