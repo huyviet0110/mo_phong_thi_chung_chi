@@ -1,4 +1,4 @@
-// Dữ liệu câu hỏi (20 câu)
+// Dữ liệu câu hỏi (362 câu)
 const quizData = [
     {
         question: "What would you do, on a list, if you wanted to show the records in groups, based on the column category? (Choose two.)",

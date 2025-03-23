@@ -95,8 +95,8 @@ h1 {
 }
 
 .explanation {
-    font-style: italic;
-    color: #666;
+    /* font-style: italic; */
+    /* color: #666; */
     margin-top: 5px;
 }
 
