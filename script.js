@@ -4448,7 +4448,7 @@ function loadQuiz(page = 1) {
         const globalIndex = start + index;
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('question');
-        questionDiv.innerHTML = `<h3>${globalIndex + 1}. ${item.question}</h3>`;
+        questionDiv.innerHTML = `<h3><span style="font-weight: bold;">Question ${globalIndex + 1}.</span> ${item.question}</h3>`;
 
         item.options.forEach((option, optIndex) => {
             const optionDiv = document.createElement('div');
@@ -4543,8 +4543,8 @@ function submitQuiz() {
             : selectedValues.length === 1 && selectedValues[0] === item.correct[0];
 
         submittedResults[index] = isCorrect
-            ? `<span class="correct">Correct</span><br><span class="explanation">${item.explanation}</span>`
-            : `<span class="incorrect">Incorrect</span> - Correct Answer: ${item.correct.map(i => String.fromCharCode(65 + i)).join(', ')}<br><span class="explanation">${item.explanation}</span>`;
+            ? `<span class="correct">Correct</span><br><div class="explanation">${item.explanation}</div>`
+            : `<span class="incorrect">Incorrect</span> - Correct Answer: ${item.correct.map(i => String.fromCharCode(65 + i)).join(', ')}<br><div class="explanation">${item.explanation}</div>`;
 
         const resultText = document.getElementById(`result-q${index}`);
         if (resultText) {
@@ -4571,6 +4571,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('submit-btn').addEventListener('click', submitQuiz);
     document.getElementById('quiz').addEventListener('change', () => {
         updateSelectedAnswers();
-        checkAllAnswered();
+        // checkAllAnswered();
     });
 });
