@@ -4144,7 +4144,7 @@ const quizData = [
             "Timing",
             "Condition to evaluate"
         ],
-        correct: [1, 4, 6, 7],
+        correct: [1, 4, 7, 8],
         explanation: "The PDF answer 'A, B, E, F' is incorrect. Correct: Table (B), Script (E), Timing (H), Condition to evaluate(I)."
     },
     {
