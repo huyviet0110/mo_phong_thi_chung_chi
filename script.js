@@ -2534,7 +2534,7 @@ const quizData = [
             "Manage",
             "Edit"
         ],
-        correct: [1, 4],
+        correct: [1, 2, 4],
         explanation: "Correct answers are 'New', 'Add' and 'Edit', commonly used to manage related list records. 'Publish' and 'Manage' are not typical."
     },
     {
@@ -2645,8 +2645,8 @@ const quizData = [
             "Show Choice List",
             "Configure Options"
         ],
-        correct: [5],
-        explanation: "To update Priority values globally (e.g., for all Tasks), right-click Priority and select 'Configure Options'. The PDF answer 'F' is correct."
+        correct: [4],
+        explanation: "To update Priority values globally (e.g., for all Tasks), right-click Priority and select 'Show Choice List'. The PDF answer 'F' is incorrect."
     },
     {
         question: "How is a group defined in ServiceNow?",
@@ -2658,7 +2658,7 @@ const quizData = [
             "A group defines a set of users that share the same job title"
         ],
         correct: [1],
-        explanation: "A group is a record in the [sys_user_group] table. The PDF answer 'B' is correct."
+        explanation: "A group is a record in the [sys_user_group] table."
     },
     {
         question: "You have been asked to create a way for users to order a new iPhone, but only if they get two levels of approval. The approvers and users should be automatically notified at each approval level. What feature would you use to manage the approvals and notifications?",
@@ -2684,7 +2684,7 @@ const quizData = [
             "User Authentication Rules"
         ],
         correct: [3],
-        explanation: "Access Control Rules (ACLs) restrict permissions. The PDF answer 'D' is correct."
+        explanation: "Access Control Rules (ACLs) restrict permissions."
     },
     {
         question: "Which type of scripts run in the browser?",
@@ -2696,7 +2696,7 @@ const quizData = [
             "UI Policies and Client Scripts"
         ],
         correct: [3],
-        explanation: "UI Policies and Client Scripts run in the browser. The PDF answer 'D' is correct."
+        explanation: "UI Policies and Client Scripts run in the browser."
     },
     {
         question: "What is the Import Set Table?",
@@ -2708,7 +2708,7 @@ const quizData = [
             "A repository for Update Set information"
         ],
         correct: [2],
-        explanation: "The Import Set Table is a staging area for imported records. The PDF answer 'C' is correct."
+        explanation: "The Import Set Table is a staging area for imported records."
     },
     {
         question: "On the Form header, which icon do you use to access form templates?",
@@ -2720,7 +2720,7 @@ const quizData = [
             "More Options (...)"
         ],
         correct: [3],
-        explanation: "The 'More Options (...)' icon accesses form templates. The PDF answer 'D' is correct."
+        explanation: "The 'More Options (...)' icon accesses form templates."
     },
     {
         question: "What defines conditions that are evaluated against users to determine which users can create, read, write, and retire knowledge articles?",
