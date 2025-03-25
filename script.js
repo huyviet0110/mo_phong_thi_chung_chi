@@ -4144,8 +4144,8 @@ const quizData = [
             "Timing",
             "Condition to evaluate"
         ],
-        correct: [1, 4, 5, 7],
-        explanation: "The PDF answer 'A, B, E, F' is incorrect. Correct: Table (B), Script (E), Application scope (F), Timing (H). 'UI action' (A) is unrelated."
+        correct: [1, 4, 6, 7],
+        explanation: "The PDF answer 'A, B, E, F' is incorrect. Correct: Table (B), Script (E), Timing (H), Condition to evaluate(I)."
     },
     {
         question: "Which allows the creation of a task-based record from Service Catalog?",
