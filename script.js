@@ -1824,11 +1824,11 @@ const quizData = [
             "Context Menu > Configure > Form Layout",
             "Context Menu > Form > Layout",
             "Right click on header > Configure > Form Design",
-            "Context Menu > Configure > Form Designer",
+            "Context Menu > Configure > Form Designe",
             "Right click on header > Configure > UX Dashboard"
         ],
         correct: [0, 3],
-        explanation: "Use 'Configure > Form Layout' or 'Configure > Form Designer' to reorder fields."
+        explanation: "Use 'Configure > Form Layout' or 'Configure > Form Designe' to reorder fields."
     },
     {
         question: "When moving a homepage or dashboard between instances, what must you remember?",
@@ -2509,8 +2509,8 @@ const quizData = [
             "Context Menu > Form > Designer",
             "Right click on header > Configure > UX Dashboard"
         ],
-        correct: [1, 3],
-        explanation: "To add fields to a form, use 'Context Menu > Configure > Form Layout' or 'Right click on header > Add > Field'. The PDF answer 'B, D' is correct."
+        correct: [1, 2],
+        explanation: "To add fields to a form, use 'Context Menu > Configure > Form Layout' or 'Context Menu > Configure > Form Design'. The PDF answer 'B, D' is incorrect."
     },
     {
         question: "What import utility do you use when the field names on the import set match the name of the fields on the Target table?",
@@ -2522,7 +2522,7 @@ const quizData = [
             "Mapping Dashboard"
         ],
         correct: [1],
-        explanation: "Automatic Mapping is used when field names match between the import set and target table. The PDF answer 'B' is correct."
+        explanation: "Automatic Mapping is used when field names match between the import set and target table."
     },
     {
         question: "One related list, which buttons are commonly used for managing the records on the list? Choose 3 answers",
@@ -2530,12 +2530,12 @@ const quizData = [
         options: [
             "Publish",
             "New",
-            "Ada",
+            "Add",
             "Manage",
             "Edit"
         ],
         correct: [1, 4],
-        explanation: "The PDF answer 'B, C, E' is incorrect. 'Ada' seems to be a typo (likely meant 'Add'). Correct answers are 'New' and 'Edit', commonly used to manage related list records. 'Publish' and 'Manage' are not typical."
+        explanation: "Correct answers are 'New', 'Add' and 'Edit', commonly used to manage related list records. 'Publish' and 'Manage' are not typical."
     },
     {
         question: "Buttons, form links, and context menu items are all examples of what type of functionality?",
@@ -2547,7 +2547,7 @@ const quizData = [
             "UI Policy"
         ],
         correct: [1],
-        explanation: "UI Actions include buttons, form links, and context menu items. The PDF answer 'B' is correct."
+        explanation: "UI Actions include buttons, form links, and context menu items."
     },
     {
         question: "Which of the following steps can be used to import new data into ServiceNow from a spreadsheet?",
@@ -2571,7 +2571,7 @@ const quizData = [
             "A Dictionary Override sets field properties in extended tables"
         ],
         correct: [3],
-        explanation: "A Dictionary Override sets field properties (e.g., mandatory) in extended tables. The PDF answer 'D' is correct."
+        explanation: "A Dictionary Override sets field properties (e.g., mandatory) in extended tables."
     },
     {
         question: "Where would you go in ServiceNow to order services and products offered by various departments?",
@@ -2583,7 +2583,7 @@ const quizData = [
             "Customer Service"
         ],
         correct: [0],
-        explanation: "The Service Catalog is where users order services and products. The PDF answer 'A' is correct."
+        explanation: "The Service Catalog is where users order services and products."
     },
     {
         question: "Which section of the ServiceNow UI allows you to perform a global search?",
