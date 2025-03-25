@@ -2632,7 +2632,7 @@ const quizData = [
             "Groups"
         ],
         correct: [2],
-        explanation: "User Criteria limits who can read or contribute to a knowledge base. The PDF answer 'C' is correct."
+        explanation: "User Criteria limits who can read or contribute to a knowledge base."
     },
     {
         question: "While showing a customer their incident form, they ask to change the Priority values to display their internal terminology P1, P2, P3, P4. They want it to be consistent across all Tasks. How would you do that? Right click on Priority and select what?",
