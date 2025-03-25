@@ -2478,7 +2478,7 @@ const quizData = [
             "False",
         ],
         correct: [0],
-        explanation: "The PDF lists 'A' as the answer, implying True (no options provided). This is correct; UI Policies can set fields to read-only, mandatory, or hidden."
+        explanation: "The PDF lists 'A' as the answer, implying True. This is correct; UI Policies can set fields to read-only, mandatory, or hidden."
     },
 
     
@@ -2608,7 +2608,7 @@ const quizData = [
             "UI Policy",
         ],
         correct: [4],
-        explanation: "The PDF answer 'E' suggests UI Policy (typically option E in CSA exams), a no-code method to control field states. No options provided, but 'UI Policy' is correct."
+        explanation: "'UI Policy' is correct."
     },
     {
         question: "What would NOT appear in the Application Navigator if 'service' is typed into the filter field?",
@@ -2732,7 +2732,7 @@ const quizData = [
             "User permissions",
         ],
         correct: [2],
-        explanation: "The PDF answer 'C' suggests User Criteria (typically option C), which defines access to knowledge articles. No options provided, but 'User Criteria' is correct."
+        explanation: "'User Criteria' is correct."
     },
     {
         question: "Which of the following statement describes the purpose of an Order Guide?",
@@ -2856,7 +2856,7 @@ const quizData = [
             "CI Use Case Modeler",
         ],
         correct: [0],
-        explanation: "The PDF answer 'A' suggests CSDM (Common Services Data Model), typically option A, which manages tables and CIs for use cases. No options provided."
+        explanation: "The PDF answer 'A' suggests CSDM (Common Services Data Model), typically option A, which manages tables and CIs for use cases."
     },
     {
         question: "A new employee joins the IT deployment and needs to perform work assigned to Network and Hardware groups. How would you set up their access? Choose 3 answers",
@@ -2980,7 +2980,7 @@ const quizData = [
             "Automated event management",
         ],
         correct: [0, 3, 4],
-        explanation: "The PDF answer 'A, D, E' suggests common advantages: pre-built actions (A), reduced coding (D), and third-party integration (E). No options provided."
+        explanation: "The PDF answer 'A, D, E' suggests common advantages: pre-built actions (A), reduced coding (D), and third-party integration (E)."
     },
     {
         question: "What is the best practice related to using the Default Update Set for moving customizations between instances?",
@@ -3103,7 +3103,7 @@ const quizData = [
             "Click List Context Menu > Configure Columns",
         ],
         correct: [1],
-        explanation: "The PDF answer 'B' suggests the Gear icon (typically B), used to personalize list layouts. No options provided."
+        explanation: "The PDF answer 'B' suggests the Gear icon (typically B), used to personalize list layouts."
     },
     {
         question: "Which one of the following describes the primary operations performed against tables in the ServiceNow platform?",
@@ -3235,7 +3235,7 @@ const quizData = [
             "Form Designer",
         ],
         correct: [2],
-        explanation: "The PDF answer 'C' suggests List Edit (typically C), which allows editing in a list. No options provided."
+        explanation: "The PDF answer 'C' suggests List Edit (typically C), which allows editing in a list."
     },
     {
         question: "When adding a related list to a form, you choose the related list from the list collector. What is an example of a related list you might see on the list collector? Choose 3 answers:",
@@ -3359,7 +3359,7 @@ const quizData = [
             "User session has timed out",
         ],
         correct: [4],
-        explanation: "The PDF answer 'E' suggests an ACL issue (typically E), restricting create access. No options provided."
+        explanation: "The PDF answer 'E' suggests an ACL issue (typically E), restricting create access."
     },
     {
         question: "How are local flow variables accessed in the Flow Designer Data panel?",
@@ -3484,7 +3484,7 @@ const quizData = [
             "Database View",
         ],
         correct: [1],
-        explanation: "The PDF answer 'B' suggests Dependency View (typically B), which shows CI relationships. No options provided."
+        explanation: "The PDF answer 'B' suggests Dependency View (typically B), which shows CI relationships."
     },
     {
         question: "What is the difference between a UI Policy and Data Policy?",
@@ -3607,7 +3607,7 @@ const quizData = [
             "Have them correct the time zone on their computer.",
         ],
         correct: [4],
-        explanation: "The PDF answer 'E' suggests adjusting the user's time zone (typically E). No options provided."
+        explanation: "The PDF answer 'E' suggests adjusting the user's time zone (typically E)."
     },
     {
         question: "Which of the following statements is true when a new table is created by extending another table?",
@@ -3731,7 +3731,7 @@ const quizData = [
             "System Definition > Dictionary: Select Table; Go to Related links and click Show Schema Map",
         ],
         correct: [1],
-        explanation: "The PDF answer 'B' suggests 'System Definition > Tables > Schema Map' (typically B). No options provided."
+        explanation: "The PDF answer 'B' suggests 'System Definition > Tables > Schema Map' (typically B)."
     },
 
 
@@ -3866,7 +3866,7 @@ const quizData = [
             "Views",
         ],
         correct: [0, 1, 4, 5],
-        explanation: "The PDF answer 'A, B, E, F' suggests common exclusions: Data, Scheduled Jobs, Users, Groups (typically A, B, E, F). No options provided."
+        explanation: "The PDF answer 'A, B, E, F' suggests common exclusions: Data, Scheduled Jobs, Users, Groups (typically A, B, E, F)."
     },
     {
         question: "What module in the Service Catalog application does an Administrator access to begin creating a new item?",
@@ -4367,7 +4367,7 @@ const quizData = [
         explanation: "The PDF answer 'C' is incorrect. 'Create Transform Map' (E) defines column mappings."
     },
     {
-        question: "What icon do you use to change the boon and color on a Favorite?",
+        question: "What icon do you use to change the icon and color on a Favorite?",
         type: "single",
         options: [
             "Clack",
@@ -4376,7 +4376,7 @@ const quizData = [
             "Star",
         ],
         correct: [2],
-        explanation: "The PDF answer 'C' suggests the Pencil icon (typically C), despite 'boon' typo (likely 'icon'). No options provided."
+        explanation: "Answer is the Pencil icon."
     },
     {
         question: "UI Action can prompt that an Incident has been successfully submitted.",
@@ -4495,7 +4495,7 @@ const quizData = [
             "Import Management",
         ],
         correct: [1],
-        explanation: "The PDF answer 'B' suggests Import Sets (typically B), used to load data. No options provided."
+        explanation: "The PDF answer 'B' suggests Import Sets (typically B), used to load data."
     },
     {
         question: "What are the three permission requirements that must evaluate to true for an access control rule to apply? Choose 3 answers",
