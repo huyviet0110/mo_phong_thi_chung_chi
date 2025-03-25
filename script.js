@@ -4121,14 +4121,14 @@ const quizData = [
         options: [
             "sn_cmdt_bak",
             "Sh_emdb_ci",
-            "cmdb_ret_ci",
+            "cmdb_rel_ci",
             "cmdb_bak",
             "cmdb_ci",
             "sh_eomdb",
             "cmdb"
         ],
         correct: [2, 4, 6],
-        explanation: "Key CMDB tables are cmap_ret_ci (C), cmdb_ci (E), cmap (G)."
+        explanation: "Key CMDB tables are cmdb_rel_ci (C), cmdb_ci (E), cmdb (G)."
     },
     {
         question: "What needs to be specified, when creating a Business Rule? (Choose four.)",
