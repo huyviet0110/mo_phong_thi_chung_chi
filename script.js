@@ -186,7 +186,7 @@ const quizData = [
             "Create one Catalog Item for Event Room Set Up; then use ACLs to control access."
         ],
         correct: [1],
-        explanation: "Creating one Catalog Item and publishing it to both catalogs avoids duplication. The PDF lists 'C' (less optimal); 'B' is correct."
+        explanation: "Creating one Catalog Item and publishing it to both catalogs avoids duplication."
     },
     {
         question: "On a Business Rule, the When setting determines at what point the rule executes. What are the options for specifying that timing?",
@@ -235,7 +235,7 @@ const quizData = [
             "Preview"
         ],
         correct: [2],
-        explanation: "Clicking 'Run' previews report results without saving. The PDF lists 'D' (incorrect); 'C' is correct."
+        explanation: "Clicking 'Run' previews report results without saving."
     },
     {
         question: "What function do you use to add buttons, links, and context menu items on forms and lists?",
@@ -295,7 +295,7 @@ const quizData = [
             "Stability signals"
         ],
         correct: [0],
-        explanation: "Long-term signals support long-term stability decisions. The PDF lists 'C' (incorrect); 'A' is correct."
+        explanation: "Long-term signals support long-term stability decisions."
     },
     {
         question: "What are the two pathways to view feedback left on a published article?",
@@ -355,7 +355,7 @@ const quizData = [
             "Cake icon"
         ],
         correct: [2],
-        explanation: "The three-bar icon is the 'Hamburger icon'. The PDF lists 'B' (incorrect); 'C' is correct."
+        explanation: "The three-bar icon is the 'Hamburger icon'."
     },
     {
         question: "A knowledge article must be in which of the following states to display to a user?",
@@ -428,7 +428,7 @@ const quizData = [
             "A user is a record stored in the User [sys_user] table"
         ],
         correct: [3],
-        explanation: "Users are stored in the sys_user table. The PDF lists 'A' (incorrect); 'D' is correct."
+        explanation: "Users are stored in the sys_user table."
     },
     {
         question: "What instance resource allows you to access guided tours, information about actions, and instructions on how to use inputs and outputs in your flow?",
@@ -757,7 +757,7 @@ const quizData = [
             "When an Incident form is saved, the Additional Comments field text is cleared and recorded to the Work Notes section"
         ],
         correct: [0],
-        explanation: "Work Notes are logged to the Activity Log when saved. The PDF lists 'D' (incorrect); 'A' is correct."
+        explanation: "Work Notes are logged to the Activity Log when saved."
     },
     {
         question: "What is the primary application used to load data into ServiceNow?",
@@ -795,7 +795,7 @@ const quizData = [
             "Field Service Taskboard"
         ],
         correct: [0, 3, 4],
-        explanation: "Now Mobile Apps, Service Portals, and Now Platform User Interfaces are included. The PDF lists 'B, E, F' (incorrect); 'A, D, E' is correct."
+        explanation: "Now Mobile Apps, Service Portals, and Now Platform User Interfaces are included."
     },
     {
         question: "What resource can you use to view details of the tables and configuration items (CIs) associated with a particular use case?",
@@ -869,7 +869,7 @@ const quizData = [
             "The Public setting"
         ],
         correct: [3],
-        explanation: "The 'Public' setting allows non-logged-in access. The PDF lists 'C' (incorrect); 'D' is correct."
+        explanation: "The 'Public' setting allows non-logged-in access."
     },
     {
         question: "What is the difference between UI Policy and UI Action?",
@@ -978,7 +978,7 @@ const quizData = [
             "Emails"
         ],
         correct: [0],
-        explanation: "Notifications inform users and are triggered by events. The PDF lists 'D' (incorrect); 'A' is correct."
+        explanation: "Notifications inform users and are triggered by events."
     },
     {
         question: "Tables are made up of which of the following?",
@@ -1027,7 +1027,7 @@ const quizData = [
             "A set of access control rules"
         ],
         correct: [0],
-        explanation: "A role is a collection of permissions. The PDF lists 'D' (incorrect); 'A' is correct."
+        explanation: "A role is a collection of permissions."
     },
     {
         question: "What is the path an Administrator could take to view the fulfillment stage task list for an order placed by a user?",
@@ -1051,7 +1051,7 @@ const quizData = [
             "Create Content Item"
         ],
         correct: [0],
-        explanation: "A Record Producer creates task-based records like incidents. The PDF lists 'B' (incorrect); 'A' is correct."
+        explanation: "A Record Producer creates task-based records like incidents."
     },
     {
         question: "Which one of the following modules can be used to view field settings for a table?",
@@ -1075,7 +1075,7 @@ const quizData = [
             "Verify Update Set is Complete, Retrieve, Preview, Commit"
         ],
         correct: [3],
-        explanation: "Steps are Verify, Retrieve, Preview, Commit. The PDF lists 'C' (incorrect); 'D' is correct."
+        explanation: "Steps are Verify, Retrieve, Preview, Commit."
     },
     {
         question: "What access does a user need to be able to import articles to a knowledge base?",
@@ -1138,7 +1138,7 @@ const quizData = [
             "CI Class Manager"
         ],
         correct: [0],
-        explanation: "CI Relationship Editor creates CMDB dependencies. The PDF lists 'D' (incorrect); 'A' is correct."
+        explanation: "CI Relationship Editor creates CMDB dependencies."
     },
     {
         question: "Which one of these applications is available to all users?",
@@ -1988,7 +1988,7 @@ const quizData = [
             "Reporting"
         ],
         correct: [1],
-        explanation: "Performance Analytics allows users to create dashboards with widgets to visualize data trends over time and identify improvement areas. The PDF answer 'B' is correct."
+        explanation: "Performance Analytics allows users to create dashboards with widgets to visualize data trends over time and identify improvement areas."
     },
     {
         question: "Which fields can be configured in reporting to perform arithmetic, coalesce, concatenation, and length?",
@@ -2000,7 +2000,7 @@ const quizData = [
             "Calculation fields"
         ],
         correct: [1],
-        explanation: "Function fields in ServiceNow reporting allow operations like arithmetic, coalesce, concatenation, and length. The PDF answer 'B' is correct."
+        explanation: "Function fields in ServiceNow reporting allow operations like arithmetic, coalesce, concatenation, and length."
     },
     {
         question: "What type of query allows you to filter list data using normal words, instead of the condition builder?",
@@ -2013,7 +2013,7 @@ const quizData = [
             "Auto-suggest Query"
         ],
         correct: [0],
-        explanation: "Natural Language Query (NLQ) enables filtering lists using plain language instead of the condition builder. The PDF answer 'A' is correct."
+        explanation: "Natural Language Query (NLQ) enables filtering lists using plain language instead of the condition builder."
     },
     {
         question: "The display sequence is controlled in a Service Catalog Item using which of the following?",
@@ -2025,7 +2025,7 @@ const quizData = [
             "The Choice field in the Variable form"
         ],
         correct: [2],
-        explanation: "The Order field in the Variable form controls the display sequence of variables in a Service Catalog Item. The PDF answer 'C' is correct."
+        explanation: "The Order field in the Variable form controls the display sequence of variables in a Service Catalog Item."
     },
     {
         question: "Access controls are evaluated in this order: 1. Match object against table ACL, 2. Match the object against field ACL. Within step 1 above, what order are the table ACLs evaluated?",
@@ -2038,7 +2038,7 @@ const quizData = [
             "Specific general: Table ACL, Parent Table ACL, Wildcard (*) ACL"
         ],
         correct: [4],
-        explanation: "Table ACLs are evaluated from most specific to most general: Table ACL (e.g., incident), Parent Table ACL (e.g., task), then Wildcard (*) ACL. The PDF answer 'E' is correct."
+        explanation: "Table ACLs are evaluated from most specific to most general: Table ACL (e.g., incident), Parent Table ACL (e.g., task), then Wildcard (*) ACL."
     },
     {
         question: "Your customer has a Human Resources knowledge base, which is only accessible to members of the Human Resources department. A new procedure regarding employee quarterly reviews needs to be published to the quarterly review category of the HR knowledge base, but should only be visible for HR managers. How would you meet this requirement?",
@@ -2050,7 +2050,7 @@ const quizData = [
             "Add User Criteria for HR Manager Group on the Can Read list of the article"
         ],
         correct: [1],
-        explanation: "Adding User Criteria for the HR Manager Group to the Category's Can Read list restricts visibility to HR managers for articles in that category. The PDF answer 'B' is correct."
+        explanation: "Adding User Criteria for the HR Manager Group to the Category's Can Read list restricts visibility to HR managers for articles in that category."
     },
     {
         question: "An IT user calls the service desk because they need to work on task records. All they can see is Self Service on their homepage when they login to the ServiceNow instance. What issue could explain this? Choose 2 answers",
@@ -2088,7 +2088,7 @@ const quizData = [
             "Export to Zip"
         ],
         correct: [1],
-        explanation: "Exporting to XML is the most efficient way to move large amounts of data between instances, as it supports bulk data transfer. The PDF answer 'B' is correct."
+        explanation: "Exporting to XML is the most efficient way to move large amounts of data between instances, as it supports bulk data transfer."
     },
     {
         question: "Which statement is true about business rules?",
@@ -2100,7 +2100,7 @@ const quizData = [
             "A business rule monitors fields on a form"
         ],
         correct: [1],
-        explanation: "Business rules are written in JavaScript and execute on the server. The PDF answer 'B' is correct."
+        explanation: "Business rules are written in JavaScript and execute on the server."
     },
     {
         question: "Where can Admins check which release is running on an ServiceNow instance?",
@@ -2138,7 +2138,7 @@ const quizData = [
             "To present related records"
         ],
         correct: [3],
-        explanation: "A Related List displays related records from another table (e.g., incidents related to a problem). The PDF answer 'D' is correct."
+        explanation: "A Related List displays related records from another table (e.g., incidents related to a problem)."
     },
     {
         question: "What features are available in Knowledge Management, to support continuous improvement on the knowledge articles? Choose 4 answers",
@@ -2152,7 +2152,7 @@ const quizData = [
             "Rate with Stars"
         ],
         correct: [1, 3, 4, 5],
-        explanation: "The PDF answer 'B, D, E, F' is correct. These features (Add Comments, Tag as Helpful, Flag Article, Rate with Stars) support continuous improvement by allowing feedback and ratings."
+        explanation: "These features (Add Comments, Tag as Helpful, Flag Article, Rate with Stars) support continuous improvement by allowing feedback and ratings."
     },
     {
         question: "Table Access Control rules are processed in the following order:",
@@ -2164,7 +2164,7 @@ const quizData = [
             "any table name (wildcard), table name, parent table name"
         ],
         correct: [1],
-        explanation: "Table ACLs are evaluated from most specific to general: table name (e.g., incident), parent table name (e.g., task), then wildcard (*). The PDF answer 'B' is correct."
+        explanation: "Table ACLs are evaluated from most specific to general: table name (e.g., incident), parent table name (e.g., task), then wildcard (*)."
     },
     {
         question: "What section on the notes tab, shows the history of the work documented on the record?",
@@ -2177,7 +2177,7 @@ const quizData = [
             "Timeline"
         ],
         correct: [1],
-        explanation: "The Activity section on the notes tab shows the history of updates and work notes. The PDF answer 'B' is correct."
+        explanation: "The Activity section on the notes tab shows the history of updates and work notes."
     },
     {
         question: "When moving multiple update sets at one time, what might you do to facilitate the move?",
@@ -2189,7 +2189,7 @@ const quizData = [
             "Preview"
         ],
         correct: [3],
-        explanation: "Previewing multiple update sets allows you to review changes before committing them. The PDF answer 'D' is correct."
+        explanation: "Previewing multiple update sets allows you to review changes before committing them."
     },
     {
         question: "What icon do you use to change the label on a Favorite?",
@@ -2203,7 +2203,7 @@ const quizData = [
             "Star"
         ],
         correct: [2],
-        explanation: "The Pencil icon is used to edit the label of a Favorite. The PDF answer 'C' is correct."
+        explanation: "The Pencil icon is used to edit the label of a Favorite."
     },
     {
         question: "Which feature allows you to automate business logic for a particular application or process such as approvals, tasks notifications, and record operations?",
@@ -2216,7 +2216,7 @@ const quizData = [
             "Flow Diagrams"
         ],
         correct: [0],
-        explanation: "Flows (Flow Designer) automate business logic like approvals and notifications. The PDF answer 'A' is correct."
+        explanation: "Flows (Flow Designer) automate business logic like approvals and notifications."
     },
     {
         question: "The Report Designer contains different sections for configuring your report. Which section is used to adjust the look of your report, including colors, files, and legend layout?",
@@ -2252,7 +2252,7 @@ const quizData = [
             "A formatter is a set of conditions applied to a table to help find and work with data"
         ],
         correct: [1],
-        explanation: "A formatter is a form element that displays additional information not stored as a field (e.g., Activity formatter). The PDF answer 'B' is correct."
+        explanation: "A formatter is a form element that displays additional information not stored as a field (e.g., Activity formatter)."
     },
     {
         question: "What is the difference between a UI Policy and Data Policy?",
@@ -2264,7 +2264,7 @@ const quizData = [
             "Data Policies run only after UI Policies run successfully"
         ],
         correct: [2],
-        explanation: "The PDF answer 'C' is correct. Data Policies enforce rules regardless of data entry method, while UI Policies apply to form interactions only."
+        explanation: "Data Policies enforce rules regardless of data entry method, while UI Policies apply to form interactions only."
     },
     {
         question: "Which best describes a field in a ServiceNow table?",
@@ -2288,7 +2288,7 @@ const quizData = [
             "Gear"
         ],
         correct: [3],
-        explanation: "The Gear icon allows users to personalize the column layout of a related list. The PDF answer 'D' is correct."
+        explanation: "The Gear icon allows users to personalize the column layout of a related list."
     },
     {
         question: "How do you make a list filter available to everyone?",
@@ -2300,7 +2300,7 @@ const quizData = [
             "Make active, assign a name, and save"
         ],
         correct: [1],
-        explanation: "To make a list filter available to everyone, you assign it a name, set visibility (e.g., to 'Everyone'), and save it. The PDF answer 'B' is correct."
+        explanation: "To make a list filter available to everyone, you assign it a name, set visibility (e.g., to 'Everyone'), and save it."
     },
     {
         question: "Which of the following is used to initiate a flow?",
@@ -2312,7 +2312,7 @@ const quizData = [
             "An Event"
         ],
         correct: [0],
-        explanation: "A Trigger initiates a flow in Flow Designer. The PDF answer 'A' is correct."
+        explanation: "A Trigger initiates a flow in Flow Designer."
     },
     {
         question: "What is a schema map?",
@@ -2324,7 +2324,7 @@ const quizData = [
             "A schema map displays the details of tables and their relationships in a visual manner, allowing administrators to view and easily access different parts of the database schema"
         ],
         correct: [3],
-        explanation: "A schema map visually displays tables and their relationships in ServiceNow. The PDF answer 'D' is correct."
+        explanation: "A schema map visually displays tables and their relationships in ServiceNow."
     },
     {
         question: "New records, new groups, and modified configuration Items (CIs): what do they have in common?",
@@ -2336,7 +2336,7 @@ const quizData = [
             "They do not have anything in common"
         ],
         correct: [0],
-        explanation: "New records, groups, and modified CIs can be included in an Update Set if they are customizations. The PDF answer 'A' is correct."
+        explanation: "New records, groups, and modified CIs can be included in an Update Set if they are customizations."
     },
     {
         question: "What table acts as a staging area for records imported from a data source?",
@@ -2348,7 +2348,7 @@ const quizData = [
             "Temp Table"
         ],
         correct: [2],
-        explanation: "The Import Set Row Table (typically 'sys_import_set_row') acts as a staging area for imported records. The PDF answer 'C' is correct."
+        explanation: "The Import Set Row Table (typically 'sys_import_set_row') acts as a staging area for imported records."
     },
     {
         question: "How are Workflows moved between instances?",
@@ -2372,7 +2372,7 @@ const quizData = [
             "Rules are evaluated from the general to the specific, so a table rule must be active to continue"
         ],
         correct: [2],
-        explanation: "If both row-level and field-level ACLs exist, both must evaluate to true for the operation to be allowed. The PDF answer 'C' is correct."
+        explanation: "If both row-level and field-level ACLs exist, both must evaluate to true for the operation to be allowed."
     },
     {
         question: "What do you call any component that needs to be managed in order to deliver services?",
@@ -2385,7 +2385,7 @@ const quizData = [
             "Asset"
         ],
         correct: [2],
-        explanation: "A Configuration Item (CI) is any component managed to deliver services. The PDF answer 'C' is correct."
+        explanation: "A Configuration Item (CI) is any component managed to deliver services."
     },
     {
         question: "Which ServiceNow capability allows you to provide knowledge articles, via a conversational messaging interface?",
@@ -2397,7 +2397,7 @@ const quizData = [
             "Connect Agent"
         ],
         correct: [1],
-        explanation: "Virtual Agent provides knowledge articles via a conversational interface. The PDF answer 'B' is correct."
+        explanation: "Virtual Agent provides knowledge articles via a conversational interface."
     },
     {
         question: "The Employee On-boarding team has asked for a way for managers to order computers, monitors, business Cards, and cell phones for new employees. How would you proceed to meet this requirement?",
@@ -2409,7 +2409,7 @@ const quizData = [
             "Create On-boarding Bot"
         ],
         correct: [1],
-        explanation: "An Order Guide allows bundling multiple related items (e.g., computer, monitor) into one request. The PDF answer 'B' is correct."
+        explanation: "An Order Guide allows bundling multiple related items (e.g., computer, monitor) into one request."
     },
     {
         question: "To apply a UI Policy to all views, which field should be set to true in its definition record?",
@@ -2433,7 +2433,7 @@ const quizData = [
             "Extended"
         ],
         correct: [1],
-        explanation: "A Many-to-Many relationship allows bidirectional visibility of related records in related lists. The PDF answer 'B' is correct."
+        explanation: "A Many-to-Many relationship allows bidirectional visibility of related records in related lists."
     },
     {
         question: "A task worker asks how they can monitor any updates occurring to records assigned to him, like responses from customers. What do you suggest?",
@@ -2445,7 +2445,7 @@ const quizData = [
             "On My Work list, select the Activity Stream icon to show a frame with live updates"
         ],
         correct: [1],
-        explanation: "The Service Desk > My Work Dashboard allows task workers to monitor updates to their assigned records. The PDF answer 'B' is correct."
+        explanation: "The Service Desk > My Work Dashboard allows task workers to monitor updates to their assigned records."
     },
     {
         question: "ServiceNow is a single-instance, multiple tenant architecture?",
@@ -2455,7 +2455,7 @@ const quizData = [
             "False"
         ],
         correct: [1],
-        explanation: "ServiceNow uses a multi-instance architecture, not single-instance, multiple-tenant. The PDF answer 'B' (False) is correct."
+        explanation: "ServiceNow uses a multi-instance architecture, not single-instance, multiple-tenant."
     },
     {
         question: "When looking at a long list of records, you want to quickly filter, to show only those which have Category of Hardware. How might you do that?",
@@ -2468,7 +2468,7 @@ const quizData = [
             "On Breadcrumb, click > icon, type Hardware and click enter"
         ],
         correct: [0],
-        explanation: "Right-clicking a value like 'Hardware' and selecting 'Show Matching' filters the list. The PDF answer 'A' is correct."
+        explanation: "Right-clicking a value like 'Hardware' and selecting 'Show Matching' filters the list."
     },
     {
         question: "UI Policy can make fields read-only, mandatory, or hidden.",
@@ -2496,7 +2496,7 @@ const quizData = [
             "Input runtime value"
         ],
         correct: [3],
-        explanation: "In Flow Designer, the runtime value generated by an action is called a 'Data pill runtime value'. The PDF answer 'D' is correct."
+        explanation: "In Flow Designer, the runtime value generated by an action is called a 'Data pill runtime value'."
     },
     {
         question: "From a form, what would you click to add additional fields to the form? (Choose two.)",
@@ -2595,7 +2595,7 @@ const quizData = [
             "Content frame"
         ],
         correct: [1],
-        explanation: "The Banner frame contains the global search bar. The PDF answer 'B' is correct."
+        explanation: "The Banner frame contains the global search bar."
     },
     {
         question: "What is a no-code approach to control the mandatory or read-only state of a form field?",
@@ -2620,7 +2620,7 @@ const quizData = [
             "Incident > Assigned to me"
         ],
         correct: [3],
-        explanation: "Typing 'service' filters for modules with 'service' in the name. 'Incident > Assigned to me' does not contain 'service'. The PDF answer 'D' is correct."
+        explanation: "Typing 'service' filters for modules with 'service' in the name. 'Incident > Assigned to me' does not contain 'service'."
     },
     {
         question: "What feature allows you to limit who is able to contribute or read knowledge within a knowledge base?",
@@ -2744,7 +2744,7 @@ const quizData = [
             "Order Guides take the user directly to the checkout without prompting for information"
         ],
         correct: [2],
-        explanation: "Order Guides allow ordering multiple related items in one request. The PDF answer 'C' is correct."
+        explanation: "Order Guides allow ordering multiple related items in one request."
     },
     {
         question: "How is the Event Log different from the Event Registry?",
@@ -2756,7 +2756,7 @@ const quizData = [
             "Event Log is the same as the Event Registry"
         ],
         correct: [0],
-        explanation: "The Event Log records generated events, while the Event Registry defines events. The PDF answer 'A' is correct."
+        explanation: "The Event Log records generated events, while the Event Registry defines events."
     },
     {
         question: "Which framework can automatically populate values for the priority and Category field based on the Short description field value?",
@@ -2769,7 +2769,7 @@ const quizData = [
             "CSDM"
         ],
         correct: [0],
-        explanation: "UI Policy can populate field values based on conditions. The PDF answer 'A' is correct."
+        explanation: "UI Policy can populate field values based on conditions."
     },
     {
         question: "Your customer would like to create a new template to notify users who are affected by network outages at their site. Which module would you use to create a new notification?",
@@ -2782,7 +2782,7 @@ const quizData = [
             "Click Gear > Notifications > New"
         ],
         correct: [0],
-        explanation: "The module 'System Notification > Email > Notifications' is used to create notifications. The PDF answer 'A' is correct."
+        explanation: "The module 'System Notification > Email > Notifications' is used to create notifications."
     },
     {
         question: "What is a role in ServiceNow?",
@@ -2794,7 +2794,7 @@ const quizData = [
             "A role is a set of modules for a particular application"
         ],
         correct: [0],
-        explanation: "A role is a record in the [sys_user_role] table. The PDF answer 'A' is correct."
+        explanation: "A role is a record in the [sys_user_role] table."
     },
     {
         question: "Which of the following concepts are associated with the ServiceNow CMDB? (Choose four.)",
@@ -2807,7 +2807,7 @@ const quizData = [
             "The Dependency View"
         ],
         correct: [0, 2, 3, 4],
-        explanation: "The CMDB involves Service Processes, Tables and Fields, A Database, and The Dependency View. The PDF answer 'A, C, D, E' is correct."
+        explanation: "The CMDB involves Service Processes, Tables and Fields, A Database, and The Dependency View."
     },
     {
         question: "What types of entities can receive task assignments, in ServiceNow? Choose 2 answers",
@@ -2819,7 +2819,7 @@ const quizData = [
             "Teams"
         ],
         correct: [0, 1],
-        explanation: "Tasks can be assigned to Groups or Users. The PDF answer 'A, B' is correct."
+        explanation: "Tasks can be assigned to Groups or Users."
     },
     {
         question: "Which certificate-based authentication methods can be enabled so that users can log into the Service Portal? Select 2 Answers from the below options",
@@ -2832,7 +2832,7 @@ const quizData = [
             "Personal Identify Verification (PIV)"
         ],
         correct: [2, 4],
-        explanation: "CAC and PIV are supported certificate-based authentication methods. The PDF answer 'C, E' is correct."
+        explanation: "CAC and PIV are supported certificate-based authentication methods."
     },
     {
         question: "You have heard about a new application released by ServiceNow. You want to try it out, to see if it might be useful for your company's ServiceNow implementation. What would be the best way to get hands-on experience with the new application?",
@@ -2844,7 +2844,7 @@ const quizData = [
             "Activate the application plug in, on your company's production instance"
         ],
         correct: [1],
-        explanation: "Activating a plugin on a personal dev instance is the best way to test a new application. The PDF answer 'B' is correct."
+        explanation: "Activating a plugin on a personal dev instance is the best way to test a new application."
     },
     {
         question: "What framework can be used to manage the tables and CIs associated with a use case?",
@@ -2894,7 +2894,7 @@ const quizData = [
             "XML, SOAP, and CSS"
         ],
         correct: [1],
-        explanation: "Import Sets support XML, CSV, and Excel. The PDF answer 'B' is correct."
+        explanation: "Import Sets support XML, CSV, and Excel."
     },
     {
         question: "Which are states that you can make a field on a form using UI Policy?",
@@ -2908,7 +2908,7 @@ const quizData = [
             "Hidden"
         ],
         correct: [0, 3, 5],
-        explanation: "UI Policy can set fields to read-only, mandatory, or hidden. The PDF answer 'A, D, F' is correct."
+        explanation: "UI Policy can set fields to read-only, mandatory, or hidden."
     },
     {
         question: "What refers to an application or system that accesses a remote service or another computer system, known as a server?",
@@ -2920,7 +2920,7 @@ const quizData = [
             "Policies"
         ],
         correct: [1],
-        explanation: "A Client accesses a remote server. The PDF answer 'B' is correct."
+        explanation: "A Client accesses a remote server."
     },
     {
         question: "Your customer requires that they be able to monitor which users are performing impersonations in their instance. What would you do to meet that requirement?",
@@ -2933,7 +2933,7 @@ const quizData = [
             "On the Impersonator role record, right click and select Create Log"
         ],
         correct: [2],
-        explanation: "Activating 'glide.sys.log_impersonation' enables impersonation logging. The PDF answer 'C' is correct."
+        explanation: "Activating 'glide.sys.log_impersonation' enables impersonation logging."
     },
     {
         question: "Knowledge articles within a knowledge base are grouped by category.",
@@ -2943,7 +2943,7 @@ const quizData = [
             "False"
         ],
         correct: [0],
-        explanation: "Knowledge articles are grouped by category. The PDF answer 'A' (True) is correct."
+        explanation: "Knowledge articles are grouped by category."
     },
     {
         question: "Which module would you use to customize your instances banner image, text and colors?",
@@ -2967,7 +2967,7 @@ const quizData = [
             "Bookmarks"
         ],
         correct: [2],
-        explanation: "Tags categorize, flag, and locate records. The PDF answer 'C' is correct."
+        explanation: "Tags categorize, flag, and locate records."
     },
     {
         question: "What are advantages of using spokes for integrations? Choose 3 answers",
@@ -3016,7 +3016,7 @@ const quizData = [
             "ui_action_admin"
         ],
         correct: [0],
-        explanation: "The 'personalize_control' role allows list customization. The PDF answer 'A' is correct."
+        explanation: "The 'personalize_control' role allows list customization."
     },
     {
         question: "What icon do you use to change the icon and color on a Favorite?",
@@ -3028,7 +3028,7 @@ const quizData = [
             "Clock"
         ],
         correct: [2],
-        explanation: "The Pencil icon changes a Favorite’s icon and color. The PDF answer 'C' is correct."
+        explanation: "The Pencil icon changes a Favorite’s icon and color."
     },
     {
         question: "A user wants to create a set of filter conditions, where they want to show records which satisfy two conditions: Incidents where the state is Closed, Incidents where Assignment Group is Network. After clicking the Funnel icon, what should the user do?",
@@ -3041,7 +3041,7 @@ const quizData = [
             "Define the first condition; click > icon on breadcrumb, define second condition; press enter"
         ],
         correct: [0],
-        explanation: "Use 'AND' and click 'Run' to apply both conditions. The PDF answer 'A' is correct."
+        explanation: "Use 'AND' and click 'Run' to apply both conditions."
     },
     {
         question: "What icon do you use to change the icon and color on a Favorite?",
@@ -3053,7 +3053,7 @@ const quizData = [
             "Tringle"
         ],
         correct: [0],
-        explanation: "The Pencil icon is used (despite typos in options). The PDF answer 'A' is correct."
+        explanation: "The Pencil icon is used (despite typos in options)."
     },
     {
         question: "When a custom table is created, which access control rules are automatically created? Choose 4 answers",
@@ -3079,7 +3079,7 @@ const quizData = [
             "To add a Homepage to an update set"
         ],
         correct: [3],
-        explanation: "'Unload Portal Page' adds a homepage to an update set. The PDF answer 'D' is correct."
+        explanation: "'Unload Portal Page' adds a homepage to an update set."
     },
     {
         question: "Which ServiceNow utility gives a Service Desk agent the ability to trace from a Service having an issue, to see which CIs supporting that service have active issues?",
@@ -3091,7 +3091,7 @@ const quizData = [
             "Event Management Homepage"
         ],
         correct: [1],
-        explanation: "CI Health Dashboard traces CI issues for a service. The PDF answer 'B' is correct."
+        explanation: "CI Health Dashboard traces CI issues for a service."
     },
     {
         question: "The customer has asked that your change the default layout of the task list. Number, Task Type, Parent, Short Description, Assignment Group, Assignment, Updated. After navigation to the list, where would you click, to meet this requirement?",
@@ -3115,7 +3115,7 @@ const quizData = [
             "Capture, Rate, Write, Develop"
         ],
         correct: [2],
-        explanation: "CRUD operations are Create, Read, Write, Delete. The PDF answer 'C' is correct."
+        explanation: "CRUD operations are Create, Read, Write, Delete."
     },
     {
         question: "On the Reports page, what sections allow you to see which reports are visible to different audiences? (Choose four.)",
@@ -3158,7 +3158,7 @@ const quizData = [
             "Option"
         ],
         correct: [0],
-        explanation: "A Choice field provides a dropdown with pre-defined options. The PDF answer 'A' is correct."
+        explanation: "A Choice field provides a dropdown with pre-defined options."
     },
     {
         question: "Which of the following statements describes how data is organized in a table?",
@@ -3183,7 +3183,7 @@ const quizData = [
             "Key Performance Indicators"
         ],
         correct: [3],
-        explanation: "Performance Analytics provides trends and forecasts. The PDF answer 'D' is correct."
+        explanation: "Performance Analytics provides trends and forecasts."
     },
     {
         question: "ServiceNow contains over 25 different report types. What are some of the types? Choose 5 answers",
@@ -3210,7 +3210,7 @@ const quizData = [
             "knowledge_admin"
         ],
         correct: [3],
-        explanation: "The 'knowledge_admin' role manages multiple knowledge bases. The PDF answer 'D' is correct."
+        explanation: "The 'knowledge_admin' role manages multiple knowledge bases."
     },
     {
         question: "Tables may have a One to Many relationships. From the Service Catalog, what are examples of tables having a one to many relationships? (Choose three.)",
@@ -3260,7 +3260,7 @@ const quizData = [
             "Content Frame"
         ],
         correct: [2],
-        explanation: "The impersonate option is in the Banner. The PDF answer 'C' is correct."
+        explanation: "The impersonate option is in the Banner."
     },
     {
         question: "Which type of ServiceNow script runs on the web browser?",
@@ -3272,7 +3272,7 @@ const quizData = [
             "Client script"
         ],
         correct: [3],
-        explanation: "Client scripts run in the browser. The PDF answer 'D' is correct."
+        explanation: "Client scripts run in the browser."
     },
     {
         question: "Which application is used to change the number format per table?",
@@ -3284,7 +3284,7 @@ const quizData = [
             "Record Maintenance"
         ],
         correct: [0],
-        explanation: "Number Maintenance adjusts number formats per table. The PDF answer 'A' is correct."
+        explanation: "Number Maintenance adjusts number formats per table."
     },
     {
         question: "Which one of the following statements describes the purpose of a Service Catalog workflow?",
@@ -3296,7 +3296,7 @@ const quizData = [
             "A Service Catalog workflow generates three basic components: item variable types, tasks, and notifications"
         ],
         correct: [2],
-        explanation: "Service Catalog workflows handle fulfillment and notifications. The PDF answer 'C' is correct."
+        explanation: "Service Catalog workflows handle fulfillment and notifications."
     },
     {
         question: "What are the components that make up a filter condition? Choose 3 answers",
@@ -3309,7 +3309,7 @@ const quizData = [
             "Operator"
         ],
         correct: [2, 3, 4],
-        explanation: "A filter condition includes Field, Value, and Operator. The PDF answer 'C, D, E' is correct."
+        explanation: "A filter condition includes Field, Value, and Operator."
     },
     {
         question: "Which one of the following statements is true about Column Context Menus?",
@@ -3321,7 +3321,7 @@ const quizData = [
             "It displays actions such as view form, view related task, and add relationship"
         ],
         correct: [0],
-        explanation: "Column Context Menus offer actions like quick reports and exports. The PDF answer 'A' is correct."
+        explanation: "Column Context Menus offer actions like quick reports and exports."
     },
     {
         question: "What are examples of UI Actions relating to forms? Choose 3 answers",
@@ -3346,7 +3346,7 @@ const quizData = [
             "Assignment Rule"
         ],
         correct: [3],
-        explanation: "Assignment Rules auto-allocate requests. The PDF answer 'D' is correct."
+        explanation: "Assignment Rules auto-allocate requests."
     },
     {
         question: "A user is complaining that they are seeing a blank page, when they click Create New, from your custom Inventory application. You have confirmed that they can see the Inventory application, and the Create New module on the application navigator. What could be the cause of this issue?",
@@ -3371,7 +3371,7 @@ const quizData = [
             "As data pills"
         ],
         correct: [3],
-        explanation: "Local flow variables are accessed as data pills. The PDF answer 'D' is correct."
+        explanation: "Local flow variables are accessed as data pills."
     },
     {
         question: "A REQ number in the Service Catalog represents...",
@@ -3383,7 +3383,7 @@ const quizData = [
             "the individual item in the order"
         ],
         correct: [0],
-        explanation: "A REQ number is the order number. The PDF answer 'A' is correct."
+        explanation: "A REQ number is the order number."
     },
     {
         question: "You have been asked to configure a form so an employee could order a tablet and select the standard accessory options to purchase with it. These standard options are: carrying case, screen cleaner, tablet stand, and screen protector. What approach would you take? Choose 3 answers",
@@ -3408,7 +3408,7 @@ const quizData = [
             "Create Order Guide and use the User Criteria list to specify First Line [sn_first_line] role"
         ],
         correct: [1],
-        explanation: "Using 'Not Available' for the Manager Group restricts access. The PDF answer 'B' is correct."
+        explanation: "Using 'Not Available' for the Manager Group restricts access."
     },
     {
         question: "Groups are stored in what table?",
@@ -3421,7 +3421,7 @@ const quizData = [
             "Groups [sys_user_groups]"
         ],
         correct: [0],
-        explanation: "Groups are stored in [sys_user_group]. The PDF answer 'A' is correct."
+        explanation: "Groups are stored in [sys_user_group]."
     },
     {
         question: "Many actions are included with Flow Designer, what are some frequently used core actions? Choose 4 answers",
@@ -3447,7 +3447,7 @@ const quizData = [
             "Can import"
         ],
         correct: [0],
-        explanation: "'Can contribute' access allows importing articles. The PDF answer 'A' is correct."
+        explanation: "'Can contribute' access allows importing articles."
     },
     {
         question: "Which ServiceNow capability provides assistance to help users obtain information, make decisions, and perform common work tasks via a messaging interface?",
@@ -3460,7 +3460,7 @@ const quizData = [
             "Now Support"
         ],
         correct: [2],
-        explanation: "Virtual Agent assists via a messaging interface. The PDF answer 'C' is correct."
+        explanation: "Virtual Agent assists via a messaging interface."
     },
     {
         question: "What is a Notification?",
@@ -3472,7 +3472,7 @@ const quizData = [
             "An email file attachment"
         ],
         correct: [1],
-        explanation: "Notifications alert users about events. The PDF answer 'B' is correct."
+        explanation: "Notifications alert users about events."
     },
     {
         question: "Which tool graphically displays an infrastructure view for a configuration item (CI) and its relationship with other CIs?",
@@ -3508,7 +3508,7 @@ const quizData = [
             "An existing Transform Map can be used multiple times on the same import set"
         ],
         correct: [3],
-        explanation: "A Transform Map can be reused on the same import set. The PDF answer 'D' is correct."
+        explanation: "A Transform Map can be reused on the same import set."
     },
     {
         question: "The baseline Service Catalog homepage contains links to which of the following components?",
@@ -3520,7 +3520,7 @@ const quizData = [
             "Record Producers, Order Guides, and Item Variables"
         ],
         correct: [0],
-        explanation: "The Service Catalog homepage links to Record Producers, Order Guides, and Catalog Items. The PDF answer 'A' is correct."
+        explanation: "The Service Catalog homepage links to Record Producers, Order Guides, and Catalog Items."
     },
     {
         question: "What is the most common role that has access to almost all platform features, functions, and data?",
@@ -3545,7 +3545,7 @@ const quizData = [
             "Mapping fields using a Field Map"
         ],
         correct: [3],
-        explanation: "Mapping Assist maps fields using a Field Map. The PDF answer 'D' is correct."
+        explanation: "Mapping Assist maps fields using a Field Map."
     },
     {
         question: "As it relates to ServiceNow reporting, which of the following statements describes what a metric can do?",
@@ -3557,7 +3557,7 @@ const quizData = [
             "A metric is a comparative measurement used to report the effectiveness of workflows and SLAs"
         ],
         correct: [2],
-        explanation: "Metrics measure IT service management process effectiveness. The PDF answer 'C' is correct."
+        explanation: "Metrics measure IT service management process effectiveness."
     },
     {
         question: "When creating a global custom table named 'abc', what is the table name that is automatically assigned by the platform?",
@@ -3569,7 +3569,7 @@ const quizData = [
             "sys_abc"
         ],
         correct: [2],
-        explanation: "Global custom tables are prefixed with 'u_'. The PDF answer 'C' is correct."
+        explanation: "Global custom tables are prefixed with 'u_'."
     },
     {
         question: "What controls the publishing and retiring process for knowledge articles?",
@@ -3582,7 +3582,7 @@ const quizData = [
             "State Lifecycle"
         ],
         correct: [3],
-        explanation: "Workflows control knowledge article publishing and retiring. The PDF answer 'D' is correct."
+        explanation: "Workflows control knowledge article publishing and retiring."
     },
     {
         question: "Which one of the following is NOT a type of Visual Task Board?",
@@ -3594,7 +3594,7 @@ const quizData = [
             "Freeform"
         ],
         correct: [0],
-        explanation: "'Feature' is not a Visual Task Board type; Guided, Flexible, and Freeform are. The PDF answer 'A' is correct."
+        explanation: "'Feature' is not a Visual Task Board type; Guided, Flexible, and Freeform are."
     },
     {
         question: "A new Service Desk employee in Latin America complains that the create dates and times are incorrect on their Incident list. What would you suggest to fix this issue?",
@@ -3619,7 +3619,7 @@ const quizData = [
             "The new table inherits all of the fields, but does not inherit Access Control rules, Client Scripts, and UI Policies of the parent table"
         ],
         correct: [2],
-        explanation: "Extended tables inherit parent fields and can add unique fields. The PDF answer 'C' is correct."
+        explanation: "Extended tables inherit parent fields and can add unique fields."
     },
     {
         question: "While on an Incident record, how would you add a Tag for 'Special Handling' to the record?",
@@ -3631,7 +3631,7 @@ const quizData = [
             "Click on the Context menu, select Add Tag, type Special Handling, press enter"
         ],
         correct: [0],
-        explanation: "Use the More options (...) icon to add a tag. The PDF answer 'A' is correct."
+        explanation: "Use the More options (...) icon to add a tag."
     },
     {
         question: "Create Incident, Password Reset, and Report outage: what do these services in the Service Catalog have in common?",
@@ -3643,7 +3643,7 @@ const quizData = [
             "They direct the user to a catalog client script"
         ],
         correct: [0],
-        explanation: "These services use Record Producers. The PDF answer 'A' is correct."
+        explanation: "These services use Record Producers."
     },
     {
         question: "On Access Control Definitions, what are ways you can set the permissions on a Table? Choose 3 answers",
@@ -3656,7 +3656,7 @@ const quizData = [
             "Conditional Expressions"
         ],
         correct: [2, 3, 4],
-        explanation: "ACLs use Roles, Scripts, and Conditional Expressions. The PDF answer 'C, D, E' is correct."
+        explanation: "ACLs use Roles, Scripts, and Conditional Expressions."
     },
     {
         question: "Knowledge Base Search results can be sorted by which of the following? (Choose three.)",
@@ -3669,7 +3669,7 @@ const quizData = [
             "Number of views"
         ],
         correct: [0, 2, 4],
-        explanation: "Search results can be sorted by Most recent update, Relevancy, and Number of views. The PDF answer 'A, C, E' is correct."
+        explanation: "Search results can be sorted by Most recent update, Relevancy, and Number of views."
     },
     {
         question: "From the User menu, which actions can a user select? (Choose three.)",
@@ -3683,7 +3683,7 @@ const quizData = [
             "Approve Records"
         ],
         correct: [1, 2, 3],
-        explanation: "The User menu includes Log Out, Elevate Roles, and Impersonate Users. The PDF answer 'B, C, D' is correct."
+        explanation: "The User menu includes Log Out, Elevate Roles, and Impersonate Users."
     },
     {
         question: "What is the language used for scripting in ServiceNow?",
@@ -3695,7 +3695,7 @@ const quizData = [
             "Python"
         ],
         correct: [0],
-        explanation: "ServiceNow uses JavaScript for scripting. The PDF answer 'A' is correct."
+        explanation: "ServiceNow uses JavaScript for scripting."
     },
     {
         question: "In what order should filter elements be specified?",
@@ -3707,7 +3707,7 @@ const quizData = [
             "Value, Operator, then Field"
         ],
         correct: [0],
-        explanation: "Filters are specified as Field, Operator, Value. The PDF answer 'A' is correct."
+        explanation: "Filters are specified as Field, Operator, Value."
     },
     {
         question: "On a form header, what icon would you click to access Template features?",
@@ -3719,7 +3719,7 @@ const quizData = [
             "Context Menu"
         ],
         correct: [1],
-        explanation: "The 'More options (...)' icon accesses templates. The PDF answer 'B' is correct."
+        explanation: "The 'More options (...)' icon accesses templates."
     },
     {
         question: "How would you navigate to the Schema map for a table?",
@@ -3749,7 +3749,7 @@ const quizData = [
             "Related tables, using Dot Walk"
         ],
         correct: [0, 1, 3],
-        explanation: "Target tables for imports can be in the global scope (A), existing application scope (B), or allow write access to other applications (D). The PDF answer 'A, B, D' is correct."
+        explanation: "Target tables for imports can be in the global scope (A), existing application scope (B), or allow write access to other applications (D)."
     },
     {
         question: "Which field (or fields) is used as a unique key during imports?",
@@ -3761,7 +3761,7 @@ const quizData = [
             "Sys IDs"
         ],
         correct: [1],
-        explanation: "Coalesce Fields determine uniqueness during imports. The PDF answer 'B' is correct."
+        explanation: "Coalesce Fields determine uniqueness during imports."
     },
     {
         question: "Tables may be set up with Many to Many relationships. What is a classic example of a scenario where the tables would have many to many relationships?",
@@ -3773,7 +3773,7 @@ const quizData = [
             "A Configuration Item can belong to multiple Classes; and Classes can contain multiple Configuration Items."
         ],
         correct: [1],
-        explanation: "Vendors and products is a classic many-to-many example. The PDF answer 'B' is correct."
+        explanation: "Vendors and products is a classic many-to-many example."
     },
     {
         question: "Which statement correctly describes the differences between a Client Script and a Business Rule?",
@@ -3798,7 +3798,7 @@ const quizData = [
             "Item"
         ],
         correct: [1],
-        explanation: "A Field holds data for a record. The PDF answer 'B' is correct."
+        explanation: "A Field holds data for a record."
     },
     {
         question: "What does Natural Language Query allow you to do on a list?",
@@ -3811,7 +3811,7 @@ const quizData = [
             "Set list filter, using audible commands"
         ],
         correct: [0],
-        explanation: "Natural Language Query auto-selects filters based on keywords. The PDF answer 'A' is correct."
+        explanation: "Natural Language Query auto-selects filters based on keywords."
     },
     {
         question: "A role is recorded in which table?",
@@ -3835,7 +3835,7 @@ const quizData = [
             "On Hold"
         ],
         correct: [0],
-        explanation: "Flagging an article marks it for review. The PDF answer 'A' is correct."
+        explanation: "Flagging an article marks it for review."
     },
     {
         question: "When building an extended table from a base table, which fields do you need to create? Choose 2 answers",
@@ -3847,7 +3847,7 @@ const quizData = [
             "The fields that are specific to the extended table."
         ],
         correct: [2, 3],
-        explanation: "You create fields not in the base table (C) and specific to the extended table (D). The PDF answer 'C, D' is correct."
+        explanation: "You create fields not in the base table (C) and specific to the extended table (D)."
     },
     {
         question: "Which of the following are not included in an Update Set, by default? (Choose four.)",
@@ -3878,7 +3878,7 @@ const quizData = [
             "Items"
         ],
         correct: [1],
-        explanation: "'Maintain Items' is used to create catalog items. The PDF answer 'B' is correct."
+        explanation: "'Maintain Items' is used to create catalog items."
     },
     {
         question: "What information does the System Dictionary contain?",
@@ -3890,7 +3890,7 @@ const quizData = [
             "The language dictionary used for spell checking"
         ],
         correct: [1],
-        explanation: "The System Dictionary defines tables and columns. The PDF answer 'B' is correct."
+        explanation: "The System Dictionary defines tables and columns."
     },
     {
         question: "What is an Event in ServiceNow?",
@@ -3902,7 +3902,7 @@ const quizData = [
             "An Event is a recognized, scheduled occurrence of a process"
         ],
         correct: [1],
-        explanation: "An Event indicates something has occurred. The PDF answer 'B' is correct."
+        explanation: "An Event indicates something has occurred."
     },
     {
         question: "Which type of scripts run in the browser?",
@@ -3914,7 +3914,7 @@ const quizData = [
             "Business Rule Scripts"
         ],
         correct: [0],
-        explanation: "UI Policies and Client Scripts run in the browser. The PDF answer 'A' is correct."
+        explanation: "UI Policies and Client Scripts run in the browser."
     },
     {
         question: "Which one of the following statements describes the contents of the Configuration Management Database (CMDB)?",
@@ -3926,7 +3926,7 @@ const quizData = [
             "The CMDB contains ITIL process data pertaining to configuration items"
         ],
         correct: [0],
-        explanation: "The CMDB holds tangible and intangible asset data. The PDF answer 'A' is correct."
+        explanation: "The CMDB holds tangible and intangible asset data."
     },
     {
         question: "You have an existing customer, who is using workflows for their catalog items. Their existing purchasing policy is to require approval for any request that totals over 31000. However, management wants to change the approval threshold to 31500. Which workflow would you update to make this change?",
@@ -3938,7 +3938,7 @@ const quizData = [
             "Purchasing Process Flow"
         ],
         correct: [2],
-        explanation: "'Service Catalog Request' workflow handles catalog approvals. The PDF answer 'C' is correct."
+        explanation: "'Service Catalog Request' workflow handles catalog approvals."
     },
     {
         question: "What feature do you use to specify which users are able to access a Service Catalog Item?",
@@ -3950,7 +3950,7 @@ const quizData = [
             "User Criteria"
         ],
         correct: [3],
-        explanation: "User Criteria controls catalog item access. The PDF answer 'D' is correct."
+        explanation: "User Criteria controls catalog item access."
     },
     {
         question: "What is the platform name for the User table?",
@@ -3962,7 +3962,7 @@ const quizData = [
             "sys_user"
         ],
         correct: [3],
-        explanation: "The User table is [sys_user]. The PDF answer 'D' is correct."
+        explanation: "The User table is [sys_user]."
     },
     {
         question: "When looking at a long list of records, you want to quickly filter, to show only those which have Short Description containing email. How might you do that?",
@@ -3984,7 +3984,7 @@ const quizData = [
             "False"
         ],
         correct: [0],
-        explanation: "Knowledge bases can have unique configurations. The PDF answer 'A' (True) is correct."
+        explanation: "Knowledge bases can have unique configurations."
     },
     {
         question: "As administrator, what must you do to access features of High Security Settings?",
@@ -3996,7 +3996,7 @@ const quizData = [
             "Use System Administrator < Elevate Roles module"
         ],
         correct: [0],
-        explanation: "Elevating roles to security_admin grants access. The PDF answer 'A' is correct."
+        explanation: "Elevating roles to security_admin grants access."
     },
     {
         question: "What feature can track the amount of time that a task has been open, to ensure that tasks are completed within an allotted time?",
@@ -4009,7 +4009,7 @@ const quizData = [
             "Business Time Remaining"
         ],
         correct: [1],
-        explanation: "Service Level Agreements (SLAs) track task timing. The PDF answer 'B' is correct."
+        explanation: "Service Level Agreements (SLAs) track task timing."
     },
     {
         question: "For your implementation, the following tables are extended from each other: Incident table is extended from Task table. Super Incident table is extended from Incident table. In this situation, which table(s) are Parent, Child and Base tables? Choose 5 answers",
@@ -4026,7 +4026,7 @@ const quizData = [
             "Task table is a Child table"
         ],
         correct: [1, 2, 3, 6, 7],
-        explanation: "Incident is Parent (B) to Super Incident and Child (C) to Task. Super Incident is Child (D). Task is Base (G) and Parent (H). The PDF answer 'B, C, D, G, H' is correct."
+        explanation: "Incident is Parent (B) to Super Incident and Child (C) to Task. Super Incident is Child (D). Task is Base (G) and Parent (H)."
     },
     {
         question: "Configuration will not affect what others see on their forms.",
@@ -4036,7 +4036,7 @@ const quizData = [
             "False"
         ],
         correct: [1],
-        explanation: "Configuration changes (e.g., Form Layout) affect all users. The PDF answer 'B' (False) is correct."
+        explanation: "Configuration changes (e.g., Form Layout) affect all users."
     },
     {
         question: "An IT user calls the service desk because they need to work on task records. All they can see is Self Service on their homepage when they login to the ServiceNow instance. What issue could explain this? Choose 2 answers",
@@ -4064,7 +4064,7 @@ const quizData = [
             "onSave"
         ],
         correct: [0, 2, 3, 5],
-        explanation: "Client script types are onSubmit (A), onCellEdit (C), onLoad (D), onChange (F). The PDF answer 'A, C, D, F' is correct."
+        explanation: "Client script types are onSubmit (A), onCellEdit (C), onLoad (D), onChange (F)."
     },
     {
         question: "What section on a task record would you use to see the most recent update made to a record?",
@@ -4076,7 +4076,7 @@ const quizData = [
             "Activity"
         ],
         correct: [3],
-        explanation: "The Activity section shows recent updates. The PDF answer 'D' is correct."
+        explanation: "The Activity section shows recent updates."
     },
     {
         question: "Which of the following protects applications by identifying and restricting access to available files and data?",
@@ -4088,7 +4088,7 @@ const quizData = [
             "Application Scope"
         ],
         correct: [3],
-        explanation: "Application Scope restricts access to files and data. The PDF answer 'D' is correct."
+        explanation: "Application Scope restricts access to files and data."
     },
     {
         question: "When impersonating a user for testing purposes, what is the best way to return the instance, logged in with your user account?",
@@ -4112,8 +4112,8 @@ const quizData = [
             "UI Design",
             "Form Constraint",
         ],
-        correct: [2, 4],
-        explanation: "The PDF answer 'C, E' suggests UI Policy (C) for field states and Client Script (E) for role-based logic. No options provided."
+        correct: [2],
+        explanation: "The PDF answer 'C, E' is incorrect. UI Policy is correct."
     },
     {
         question: "What are the three key tables in an enterprise CMDB? Choose 3 answers",
@@ -4128,7 +4128,7 @@ const quizData = [
             "cmap"
         ],
         correct: [2, 4, 6],
-        explanation: "Key CMDB tables are cmap_ret_ci (C), cmdb_ci (E), cmap (G). The PDF answer 'C, E, G' is correct."
+        explanation: "Key CMDB tables are cmap_ret_ci (C), cmdb_ci (E), cmap (G)."
     },
     {
         question: "What needs to be specified, when creating a Business Rule? (Choose four.)",
@@ -4172,7 +4172,7 @@ const quizData = [
             "Titles of Dashboard Gauges"
         ],
         correct: [0, 1, 2, 3],
-        explanation: "App Navigator returns Applications and Modules (A), Modules (B), Applications (C), Favorites (D). The PDF answer 'A, B, C, D' is correct."
+        explanation: "App Navigator returns Applications and Modules (A), Modules (B), Applications (C), Favorites (D)."
     },
     {
         question: "Which icon would you double click, to expand and collapse the list of all Applications and Modules?",
@@ -4184,7 +4184,7 @@ const quizData = [
             "Funnel"
         ],
         correct: [2],
-        explanation: "The Application icon expands/collapses the list. The PDF answer 'C' is correct."
+        explanation: "The Application icon expands/collapses the list."
     },
     {
         question: "On the knowledge base record, which tab would you use to define which users are able to write articles to the knowledge base?",
@@ -4197,7 +4197,7 @@ const quizData = [
             "Cannot Author"
         ],
         correct: [2],
-        explanation: "'Can Contribute' defines write access. The PDF answer 'C' is correct."
+        explanation: "'Can Contribute' defines write access."
     },
     {
         question: "What is a Record Producer?",
@@ -4209,7 +4209,7 @@ const quizData = [
             "A Record Producer is a type of a Catalog Item that allows users to create task-based records from the Service Catalog"
         ],
         correct: [3],
-        explanation: "Record Producers create task-based records. The PDF answer 'D' is correct."
+        explanation: "Record Producers create task-based records."
     },
     {
         question: "Access Control rules may be defined with which of the following permission requirements? (Choose three.)",
@@ -4223,7 +4223,7 @@ const quizData = [
             "Groups"
         ],
         correct: [0, 1, 3],
-        explanation: "ACLs use Roles (A), Conditional Expressions (B), Scripts (D). The PDF answer 'A, B, D' is correct."
+        explanation: "ACLs use Roles (A), Conditional Expressions (B), Scripts (D)."
     },
     {
         question: "On what part of the ServiceNow instance, would you find the option to access applications, like Incident Management?",
@@ -4235,7 +4235,7 @@ const quizData = [
             "Favorites"
         ],
         correct: [1],
-        explanation: "The Application Navigator provides access to applications. The PDF answer 'B' is correct."
+        explanation: "The Application Navigator provides access to applications."
     },
     {
         question: "What attributes can you manage, using System Properties > Basic Configuration UI16? (Choose five.)",
@@ -4251,7 +4251,7 @@ const quizData = [
             "Banner Image"
         ],
         correct: [0, 1, 3, 6, 7],
-        explanation: "UI16 manages Browser tab title (A), Module text color (B), Base theme (D), Header background color (G), Banner Image (H). The PDF answer 'A, B, D, G, H' is correct."
+        explanation: "UI16 manages Browser tab title (A), Module text color (B), Base theme (D), Header background color (G), Banner Image (H)."
     },
     {
         question: "What are two ways to generate an Event? (Choose two.)",
@@ -4263,7 +4263,7 @@ const quizData = [
             "Knowledge article publication"
         ],
         correct: [0, 1],
-        explanation: "Events are generated by Business Rules (A) and Workflows (B). The PDF answer 'A, B' is correct."
+        explanation: "Events are generated by Business Rules (A) and Workflows (B)."
     },
     {
         question: "What is the definition of a group?",
@@ -4288,7 +4288,7 @@ const quizData = [
             "Assignment Rules"
         ],
         correct: [2],
-        explanation: "Roles control Application and Module access. The PDF answer 'C' is correct."
+        explanation: "Roles control Application and Module access."
     },
     {
         question: "What are the main UI component(s) of the ServiceNow Platform?",
@@ -4302,7 +4302,7 @@ const quizData = [
             "Content Frame"
         ],
         correct: [1, 3, 5],
-        explanation: "Main UI components are Banner Frame (B), Application Navigator (D), Content Frame (F). The PDF answer 'B, D, F' is correct."
+        explanation: "Main UI components are Banner Frame (B), Application Navigator (D), Content Frame (F)."
     },
     {
         question: "Which one of the following statements is a recommendation from ServiceNow about Update Sets?",
@@ -4314,7 +4314,7 @@ const quizData = [
             "Once an Update Set is closed as 'Complete', change it back to 'In Progress' until it is applied to another instance"
         ],
         correct: [0],
-        explanation: "ServiceNow recommends avoiding the Default Update Set for moving customizations. The PDF answer 'A' is correct."
+        explanation: "ServiceNow recommends avoiding the Default Update Set for moving customizations."
     },
     {
         question: "When testing a catalog item, having a manager approval flows, which of these best practices would you follow? (Choose three.)",
@@ -4328,7 +4328,7 @@ const quizData = [
             "Use your Admin account, so you can approve the items quickly."
         ],
         correct: [3, 4, 5],
-        explanation: "Best practices: Manager specified (D), Testing Update Set (E), Admin approval (F). The PDF answer 'D, E, F' is correct."
+        explanation: "Best practices: Manager specified (D), Testing Update Set (E), Admin approval (F)."
     },
     {
         question: "Record numbers have to be manually incremented",
@@ -4338,7 +4338,7 @@ const quizData = [
             "False"
         ],
         correct: [1],
-        explanation: "Record numbers auto-increment. The PDF answer 'B' (False) is correct."
+        explanation: "Record numbers auto-increment."
     },
     {
         question: "If a knowledge base has no access details specified, what users are able to read articles in that knowledge base?",
@@ -4351,7 +4351,7 @@ const quizData = [
             "Users with kb_user role"
         ],
         correct: [2],
-        explanation: "Without access details, any active user can read articles. The PDF answer 'C' is correct."
+        explanation: "Without access details, any active user can read articles."
     },
     {
         question: "When importing data from a spreadsheet, which step defines where the incoming data columns will be written in the receiving table?",
@@ -4386,7 +4386,7 @@ const quizData = [
             "False"
         ],
         correct: [0],
-        explanation: "UI Actions can display prompts (e.g., via alerts). The PDF answer 'A' (True) is correct."
+        explanation: "UI Actions can display prompts (e.g., via alerts)."
     },
     {
         question: "What is NOT an example of a UI Action?",
@@ -4422,7 +4422,7 @@ const quizData = [
             "Each user has a role in the ServiceNow platform"
         ],
         correct: [0],
-        explanation: "Roles can contain other roles, and inheritance applies. The PDF answer 'A' is correct."
+        explanation: "Roles can contain other roles, and inheritance applies."
     },
     {
         question: "On a filter condition, which component is always a choice list?",
@@ -4447,7 +4447,7 @@ const quizData = [
             "App Updated Set"
         ],
         correct: [3],
-        explanation: "Plugins add functionality. The PDF answer 'D' is correct."
+        explanation: "Plugins add functionality."
     },
     {
         question: "Which three Variable Types can be added to a Service Catalog Item?",
@@ -4459,7 +4459,7 @@ const quizData = [
             "Multiple Choice, Select Box, and Checkbox"
         ],
         correct: [3],
-        explanation: "Variable types include Multiple Choice, Select Box, Checkbox. The PDF answer 'D' is correct."
+        explanation: "Variable types include Multiple Choice, Select Box, Checkbox."
     },
     {
         question: "What ServiceNow feature allows you to include data from a secondary related table on a report?",
@@ -4471,7 +4471,7 @@ const quizData = [
             "Joins"
         ],
         correct: [1],
-        explanation: "Dot Walking accesses related table data in reports. The PDF answer 'B' is correct."
+        explanation: "Dot Walking accesses related table data in reports."
     },
     {
         question: "What module do you use to access the reports that are available to you?",
@@ -4521,7 +4521,7 @@ const quizData = [
             "Information Technology Infrastructure Library (ITIL)"
         ],
         correct: [0],
-        explanation: "CSDM provides service definitions and a CMDB framework. The PDF answer 'A' is correct."
+        explanation: "CSDM provides service definitions and a CMDB framework."
     },
     
 ];
