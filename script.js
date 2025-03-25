@@ -4121,11 +4121,11 @@ const quizData = [
         options: [
             "sn_cmdt_bak",
             "Sh_emdb_ci",
-            "cmap_ret_ci",
+            "cmdb_ret_ci",
             "cmdb_bak",
             "cmdb_ci",
             "sh_eomdb",
-            "cmap"
+            "cmdb"
         ],
         correct: [2, 4, 6],
         explanation: "Key CMDB tables are cmap_ret_ci (C), cmdb_ci (E), cmap (G)."
